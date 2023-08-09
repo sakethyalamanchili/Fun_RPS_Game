@@ -28,6 +28,9 @@ while True:
         print(f"{userName}, you won this round.")
         user_score += 1
         
+    elif user_input == computer_input:
+        print(f"{userName} it's a tie.")
+        
     elif user_input == 'paper' and computer_input == 'rock':
         print(f"{userName}, you won this round.")
         user_score += 1
